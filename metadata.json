@@ -1,0 +1,6 @@
+{
+  "name": "PenMap Pro",
+  "description": "Map S Pen hardware button actions, clicks, and air actions to custom automation triggers, gestures, and per-app macros with offline Room DB, haptic control, and background accessibility engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

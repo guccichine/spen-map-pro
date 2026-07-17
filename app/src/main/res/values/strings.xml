@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PenMap Pro</string>
+    <string name="accessibility_service_label">S-Pen Command Background Service</string>
+    <string name="accessibility_service_desc">Provides background automation and S Pen button/gesture macro mappings. Intercepts S Pen button events and simulates actions like Back, Recents, and custom swipes.</string>
+</resources>

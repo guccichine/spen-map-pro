@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<remote-spen-actions xmlns:android="http://schemas.android.com/apk/res/android">
+    <action id="flick_up" label="Flick Up"/>
+    <action id="flick_down" label="Flick Down"/>
+    <action id="flick_left" label="Flick Left"/>
+    <action id="flick_right" label="Flick Right"/>
+    <action id="double_flick_up" label="Double Flick Up"/>
+    <action id="double_flick_down" label="Double Flick Down"/>
+    <action id="single_click" label="Single Click"/>
+    <action id="double_click" label="Double Click"/>
+</remote-spen-actions>
