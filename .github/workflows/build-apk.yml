@@ -17,11 +17,14 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: "17"
+          java-version: "21"
 
       - uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: "9.0.0"
+          gradle-version: "9.3.1"
+
+      - name: Prepare local secrets
+        run: test -f .env || cp .env.example .env
 
       - name: Build debug APK
         run: gradle :app:assembleDebug --no-daemon --stacktrace
@@ -49,3 +52,5 @@ jobs:
             1. Install the APK.
             2. Enable Accessibility for S Pen Map Pro.
             3. Map air actions on the dashboard.
+
+            Debug-signed so you can overwrite later builds.

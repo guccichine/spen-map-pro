@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "0",
+    "project_id": "spen-map-pro-debug",
+    "storage_bucket": "spen-map-pro-debug.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:0:android:deadbeef",
+        "android_client_info": {
+          "package_name": "com.aistudio.spencommand.qwzpk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDummyKeyForDebugBuildOnly00000"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
